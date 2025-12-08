@@ -32,7 +32,9 @@ plusBtn.addEventListener('click', () => {
 
 resetBtn.addEventListener('click', () => {
     count.innerText = 0;
+    updateStatus(); 
 });
 
  
+
  
