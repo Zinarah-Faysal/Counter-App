@@ -9,9 +9,9 @@
 h1{
     color: rgb(252, 123, 166);
     height: 40px;
-    margin-left: 630px;
+    margin-left: 600px;
     margin-top: 20px;
-    font-size: 3rem;
+    font-size: 3.85rem;
 }
 
 h2{
@@ -197,6 +197,41 @@ p{
 }
 }
 
+@media (max-width: 690px){
+    h1{
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 3.5rem;
+    height: 20px;
+}
+
+h2{
+    margin-top: 120px;
+    margin-left: 230px;
+    font-size: 4.85rem;
+}
+
+.counter-btns{
+    margin-top: 100px;
+    margin-left: 150px;
+    gap: 40px; 
+           
+}
+
+.reset-btn{
+    padding: 27px 25px; 
+    border-radius: 50%;
+    margin-left: 215px;
+    font-size: 20px;;
+}
+
+p{
+    font-size: 1.5rem;
+    margin-left: 155px;
+    margin-top: 30px;
+}
+}
+
 /* Mobile phones */
 @media (max-width: 480px) { 
     h1{
@@ -312,3 +347,4 @@ p{
     margin-top: 30px;
 }
 }
+
